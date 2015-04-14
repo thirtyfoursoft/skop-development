@@ -1,0 +1,1340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Q and A Focus Plus FAQ 1.3.9.6\n"
+"POT-Creation-Date: 2014-06-13 02:34-0500\n"
+"PO-Revision-Date: 2014-06-13 02:34-0500\n"
+"Last-Translator: Spectrum Visions <support@spectrumvisions.com>\n"
+"Language-Team: Lanexatek Creations <support@lanexatek.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/documentation.php:1
+msgid "Table of Contents"
+msgstr ""
+
+#: admin/documentation.php:4 admin/documentation.php:11
+msgid "Introduction"
+msgstr ""
+
+#: admin/documentation.php:5 admin/documentation.php:25
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/documentation.php:6
+msgid "The Recent FAQs Widget"
+msgstr ""
+
+#: admin/documentation.php:7 admin/documentation.php:83
+msgid "Tag Support"
+msgstr ""
+
+#: admin/documentation.php:13
+msgid ""
+"Q &amp; A Focus Plus FAQ is based on the popular Q &amp; A Plus FAQ and "
+"Knowledge Base by Raygun. It adds new features and enhancements to make it "
+"easy to create an even better full-featured, fully searchable FAQ on your "
+"WordPress site. You can add an unlimited number of entries and group them by "
+"category, bring questions into focus (similar to anchor links), add post "
+"tags, allow comments and let users rate your FAQs."
+msgstr ""
+
+#: admin/documentation.php:15
+msgid "To get started, click on the"
+msgstr ""
+
+#: admin/documentation.php:15
+msgid "Q &amp; A Focus Plus"
+msgstr ""
+
+#: admin/documentation.php:15
+msgid "section of the"
+msgstr ""
+
+#: admin/documentation.php:15
+msgid "Settings"
+msgstr ""
+
+#: admin/documentation.php:15
+msgid ""
+"menu of your WordPress Dashboard. The first thing you&#8217;ll want to do is "
+"create a FAQ homepage, this is where visitors will be able to view your "
+"FAQs. This can be a page that already exists, or the plugin can "
+"automatically create the page and add the shortcode for you. By default, the "
+"FAQ homepage is &#8220;faqs&#8221;, so if that works for you, go ahead and "
+"click the &#8220;Create Page&#8221; button to add a new page to your site."
+msgstr ""
+
+#: admin/documentation.php:17
+msgid ""
+"To use a page that already exists on your site, enter the page slug in the"
+msgstr ""
+
+#: admin/documentation.php:17 admin/documentation.php:31
+#: admin/q-a-focus-plus-admin.php:179
+msgid "FAQ homepage"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid "field. For example, the page slug of your &#8220;About&#8221; page is"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid "about"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid ""
+"If you&#8217;d like your FAQs to be on a sub-page on your site, you can use "
+"a slash, so a page called &#8220;FAQs&#8221; that is a child page of &#8220;"
+"About&#8221; would have the slug"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid "about/faqs"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid "You will then need to add the"
+msgstr ""
+
+#: admin/documentation.php:17 admin/documentation.php:41
+#: admin/documentation.php:43 admin/documentation.php:45
+#: admin/documentation.php:51 admin/documentation.php:53
+#: admin/documentation.php:55 admin/documentation.php:57
+#: admin/documentation.php:59
+msgid "or"
+msgstr ""
+
+#: admin/documentation.php:17
+msgid "shortcode to that page."
+msgstr ""
+
+#: admin/documentation.php:19
+msgid ""
+"The default options should work for most sites, so let&#8217;s create a few "
+"FAQs and see how they look. From the WordPress Dashboard, look for the"
+msgstr ""
+
+#: admin/documentation.php:19 inc/custom-post.php:23
+msgid "FAQs"
+msgstr ""
+
+#: admin/documentation.php:19
+msgid "menu, and then click"
+msgstr ""
+
+#: admin/documentation.php:19
+msgid "Add New"
+msgstr ""
+
+#: admin/documentation.php:19
+msgid ""
+"Just like a typical WordPress post, you&#8217;ll be able to add a title and "
+"body content, as well as set your category, add tags and enable comments. "
+"The title is the &#8220;Question&#8221; part of the FAQ and will be "
+"displayed on the FAQ page. The content section is hidden by default and will "
+"be displayed when the visitor clicks on the title. The category section "
+"allows you to organize your FAQs into multiple categories which are "
+"displayed on the homepage and on their own individual category pages. A FAQ "
+"can belong to multiple categories."
+msgstr ""
+
+#: admin/documentation.php:21
+msgid ""
+"Add your FAQ like you would any normal WordPress post. Once you&#8217;ve "
+"added some FAQs, visit your site and take a look. The FAQ homepage will be "
+"at yoursite.com/faqs by default, or wherever you set the FAQs homepage slug "
+"in the plugin settings."
+msgstr ""
+
+#: admin/documentation.php:23
+msgid ""
+"Take a look at the options on the &#8220;Plugin Settings&#8221; tab and try "
+"them out. You can add a search box on the FAQ homepage, category pages, and "
+"control the position of the search box. You can also customimze the "
+"animations and other aspects of the FAQ show/hide behavior. You can also "
+"enable ratings, change the sort order, change the size of the category "
+"headings and apply custom CSS to the question titles. Each option has a "
+"small question mark like this next to it."
+msgstr ""
+
+#: admin/documentation.php:23
+msgid ""
+"This is a contextual tooltip. Hover over these to find out what a particular "
+"setting does."
+msgstr ""
+
+#: admin/documentation.php:23
+msgid ""
+"Hover over this mark for a tooltip with more information about that option."
+msgstr ""
+
+#: admin/documentation.php:27
+msgid "The [qafp] and [qa] Shortcodes"
+msgstr ""
+
+#: admin/documentation.php:29
+msgid "The"
+msgstr ""
+
+#: admin/documentation.php:29 admin/documentation.php:31
+#: admin/documentation.php:33 admin/documentation.php:35
+#: admin/documentation.php:39 admin/documentation.php:41
+#: admin/documentation.php:43 admin/documentation.php:45
+#: admin/documentation.php:47 admin/documentation.php:51
+#: admin/documentation.php:53 admin/documentation.php:55
+#: admin/documentation.php:57 admin/documentation.php:59
+#: admin/documentation.php:61 admin/documentation.php:63
+#: admin/documentation.php:65 admin/documentation.php:67
+#: admin/documentation.php:69 admin/documentation.php:71
+msgid "and"
+msgstr ""
+
+#: admin/documentation.php:29
+msgid ""
+"(for backwards compatibility) shortcodes allow you to put your FAQs on any "
+"page on your site, and has quite a few options. If you need to create a new "
+"FAQ page, just use the shortcode without any options. You can also use the "
+"shortcode to place individual FAQs, single FAQ categories, and FAQ pages "
+"with custom options anywhere on your site. You can combine most shortcode "
+"attributes in any combination you want. Here are the basic Q &amp; A Focus "
+"Plus shortcode options:"
+msgstr ""
+
+#: admin/documentation.php:31
+msgid "Will insert the entire FAQ homepage anywhere on your site."
+msgstr ""
+
+#: admin/documentation.php:33
+msgid "Single category page"
+msgstr ""
+
+#: admin/documentation.php:33
+msgid ""
+"By specifying a category slug, you can add an entire category of FAQ entries "
+"anywhere on your site. You can find the category slug on the"
+msgstr ""
+
+#: admin/documentation.php:33
+msgid "FAQs &rarr; FAQ Categories"
+msgstr ""
+
+#: admin/documentation.php:33
+msgid "page."
+msgstr ""
+
+#: admin/documentation.php:35
+msgid "Single FAQ page"
+msgstr ""
+
+#: admin/documentation.php:35
+msgid ""
+"By specifying an ID, you can insert an individual FAQ entry anywhere on your "
+"site."
+msgstr ""
+
+#: admin/documentation.php:37
+msgid "Hompage Specific Shortcodes"
+msgstr ""
+
+#: admin/documentation.php:39
+msgid "Limit"
+msgstr ""
+
+#: admin/documentation.php:39
+msgid "Controls the number of FAQs returned on the FAQ homepage. Use"
+msgstr ""
+
+#: admin/documentation.php:39
+msgid "to return all FAQ entries."
+msgstr ""
+
+#: admin/documentation.php:41
+msgid "Enable excerpts"
+msgstr ""
+
+#: admin/documentation.php:41
+msgid ""
+"Whether to limit posts length on the homepage. Entries that are longer than "
+"40 words will be shorted and a &#8220;Continue reading&#8221; link will be "
+"added. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:43 admin/q-a-focus-plus-admin.php:195
+msgid "Show category links"
+msgstr ""
+
+#: admin/documentation.php:43
+msgid ""
+"Show links to the single category page below each category title. Works well "
+"in conjunction with the limit setting to condense your FAQ homepage. "
+"Possible values are"
+msgstr ""
+
+#: admin/documentation.php:45 admin/q-a-focus-plus-admin.php:203
+msgid "Category order"
+msgstr ""
+
+#: admin/documentation.php:45
+msgid ""
+"Sort the categories on the FAQ homepage by ID, name, slug, or term order. "
+"Possible values are"
+msgstr ""
+
+#: admin/documentation.php:47 admin/q-a-focus-plus-admin.php:227
+msgid "Sort order"
+msgstr ""
+
+#: admin/documentation.php:47 admin/q-a-focus-plus-admin.php:227
+msgid ""
+"Sort the questions on the FAQ homepage by menu order, or ratings (ratings "
+"must be enabled first)."
+msgstr ""
+
+#: admin/documentation.php:49
+msgid "General Shortcode Attributes"
+msgstr ""
+
+#: admin/documentation.php:51 admin/q-a-focus-plus-admin.php:243
+msgid "Show FAQ link on categories"
+msgstr ""
+
+#: admin/documentation.php:51
+msgid ""
+"Show link to the main FAQ page above, and/or below categories, or not at "
+"all. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:53 admin/q-a-focus-plus-admin.php:251
+msgid "Show category descriptions"
+msgstr ""
+
+#: admin/documentation.php:53
+msgid ""
+"Show FAQ category descriptions under the category titles. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:55 inc/shortcodes.php:585
+msgid "Search"
+msgstr ""
+
+#: admin/documentation.php:55
+msgid "Whether to show the search field. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:55
+msgid "to disable the search field."
+msgstr ""
+
+#: admin/documentation.php:57
+msgid "Search position"
+msgstr ""
+
+#: admin/documentation.php:57
+msgid "Position of the search box, if enabled. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:59
+msgid "Permalinks"
+msgstr ""
+
+#: admin/documentation.php:59
+msgid ""
+"Whether to show permalinks for individual FAQs. This makes it easier for "
+"users to click through and bookmark your content. Possible values are"
+msgstr ""
+
+#: admin/documentation.php:61
+msgid "Animation"
+msgstr ""
+
+#: admin/documentation.php:61
+msgid ""
+"Customize the animation style when opening and closing FAQs. Possible values "
+"are"
+msgstr ""
+
+#: admin/documentation.php:63
+msgid "Accordion"
+msgstr ""
+
+#: admin/documentation.php:63
+msgid ""
+"Clicking on one FAQ entry closes any other open FAQ entries on the page. "
+"Setting this to"
+msgstr ""
+
+#: admin/documentation.php:63
+msgid ""
+"will allow multiple FAQs to be open and visible on the page at the same time."
+msgstr ""
+
+#: admin/documentation.php:65
+msgid "Collapsible"
+msgstr ""
+
+#: admin/documentation.php:65
+msgid "You can completely disable the show/hide behavior by setting this to"
+msgstr ""
+
+#: admin/documentation.php:67
+msgid "Show expand and collapse symbol"
+msgstr ""
+
+#: admin/documentation.php:67
+msgid ""
+"Display the plus/minus (expand and collapse) signs beside the FAQ title when "
+"show/hide behavior is set to"
+msgstr ""
+
+#: admin/documentation.php:69
+msgid "Focus"
+msgstr ""
+
+#: admin/documentation.php:69
+msgid "Adds a link anchor behavior. When set to"
+msgstr ""
+
+#: admin/documentation.php:69
+msgid ""
+"the current question will jump to the top of the browser window. You can "
+"completely disable the focus behavior by setting this to"
+msgstr ""
+
+#: admin/documentation.php:71
+msgid "Horizontal Rule"
+msgstr ""
+
+#: admin/documentation.php:71
+msgid ""
+"Adds a horizontal rule after each answer. You can completely disable the "
+"horizontal rule by setting this to"
+msgstr ""
+
+#: admin/documentation.php:73
+msgid "Miscellaneous Shortcodes"
+msgstr ""
+
+#: admin/documentation.php:75
+msgid "Show Home Link"
+msgstr ""
+
+#: admin/documentation.php:75
+msgid "Adds a link to the FAQ home page anywhere on the site."
+msgstr ""
+
+#: admin/documentation.php:77
+msgid "Show last updated"
+msgstr ""
+
+#: admin/documentation.php:77
+msgid ""
+"Displays the date that the FAQ was last updated anywhere on the site, even "
+"when the option to display it on the FAQ home page is disabled. It only "
+"displays the date: no extra text or formatting."
+msgstr ""
+
+#: admin/documentation.php:79
+msgid "Recent FAQs Widget"
+msgstr ""
+
+#: admin/documentation.php:81
+msgid ""
+"Q &amp; A Focus Plus FAQ includes a recent FAQs widget. Add it by dragging "
+"the"
+msgstr ""
+
+#: admin/documentation.php:81
+msgid ""
+"widget from the available widgets to the location you want it to appear on "
+"your site. You can change the widget title and the number of FAQ entries to "
+"display."
+msgstr ""
+
+#: admin/documentation.php:85
+msgid ""
+"Q &amp; A Focus Plus supports post tags. You can add tags to each question "
+"in the editor. The tags will function like the tags used on standard posts "
+"and even show up in your tag cloud."
+msgstr ""
+
+#: admin/documentation.php:87
+msgid ""
+"If you are already using a plugin that adds post tag taxonomy support for "
+"custom post types, you can disable the built-in support by checking the "
+"&#8220;disable built-in tag support&#8221; option. If you don&#8217;t have "
+"any other custom post type taxonomy support enabled, disabling the built-in "
+"taxonomy support will break any tags that you have added to your FAQs. "
+"Broken tags will produce &#8220;nothing found&#8221; or other errors when "
+"clicked on. If checking the &#8220;disable built-in tag support&#8221; "
+"option breaks your FAQ tags you will need to uncheck it. This option will be "
+"automatically disabled if you are using"
+msgstr ""
+
+#: admin/documentation.php:87
+msgid "Easy Taxonomy Support"
+msgstr ""
+
+#: admin/documentation.php:87
+msgid "1.0.2, or higher"
+msgstr ""
+
+#: admin/documentation.php:89
+msgid ""
+"You can also hide the tags so that they do not appear on your FAQs. Tags "
+"should be hidden if you don&#8217;t have any other taxonomy support and your "
+"tags are producing &#8220;nothing found&#8221; errors."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:17
+#, php-format
+msgid ""
+"The Easy Taxonomy Support plugin (version %1$s) is outdated and needs to be "
+"updated to be fully compatible with this version of Q and A Focus Plus. "
+"Please update, or deactivate Easy Taxonomy Support %1$s."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:26
+#, php-format
+msgid "The FAQ homepage (%s) doesn't exist yet. Would you like to create it?"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:30
+msgid "Create Page"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:35
+msgid "Dismiss"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:83
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:84
+msgid "Documentation"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:91
+msgid ""
+"Donate to Lanexatek Creations via PayPal - The safer, easier way to pay "
+"online!"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:96
+msgid "Q and A Focus Plus"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:114
+msgid "Save Changes"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:117
+msgid "Show the Love"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:118
+msgid "This is a FREE plugin. If you like it, please"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:118
+msgid "click here to rate and review it"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:130
+msgid "You're using the all FREE Q &amp; A Focus Plus FAQ, made by"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:130
+msgid "Lanexatek Creations"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:130
+msgid "Based on the original Q &amp; A Plus by Raygun."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:151
+msgid "FAQ Homepage Options"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:158
+msgid "Global Options"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:165
+msgid "Ratings Options"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:172
+msgid "Advanced Options"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:179
+msgid ""
+"Where would you like your FAQ homepage to live? This can be a page that "
+"already exists on your site, but it shouldn't be the front page."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:187
+msgid "FAQs per category"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:187
+msgid ""
+"How many items should we show in each category on the Q & A homepage? -1 "
+"shows all FAQ entries. Users will be able to click a link to see all "
+"questions on the category page."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:195
+msgid ""
+"Show links to the single category page below each category title. Works well "
+"in conjunction with the limit setting to condense your FAQ homepage."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:203
+msgid ""
+"Sort the categories on the FAQ homepage by ID, name, slug, or term order "
+"(default)."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:211
+msgid "Show number of entries"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:211
+msgid "Show total number of FAQ entries in the category header."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:219
+msgid "Show excerpts"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:219
+msgid "Show excerpts instead of full entries on the FAQ homepage."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:235
+msgid "Show FAQ last updated"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:235
+msgid "Show the date the FAQ was last updated on the FAQ home page."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:243
+msgid ""
+"Show link to the main FAQ page above, and/or below categories. Select 'none' "
+"to hide the FAQ page link (recommended when using shortcode to list several "
+"categories on one page)"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:251
+msgid ""
+"Check to show FAQ category descriptions under the category titles. Uncheck "
+"to hide the category descriptions."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:259
+msgid "Show search"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:259
+msgid "Show the search form on the home and category pages."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:267
+msgid "Search box position"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:267
+msgid "Add the search box before or after the FAQ content."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:275
+msgid "Show permalinks"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:275
+msgid "Add a permalink to each FAQ entry."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:283
+msgid "Animation style"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:283
+msgid "What animation should be used to show/hide the FAQs?"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:291
+msgid "Accordion behavior"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:291
+msgid "Clicking a FAQ title closes any other open FAQs."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:299
+msgid "Enable show/hide behavior"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:299
+msgid "Uncheck this to turn off the show/hide behavior."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:307
+msgid "Show expand/collapse symbol"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:307
+msgid ""
+"Check this to display the plus/minus (expand and collapse) signs beside the "
+"FAQ title when show/hide behavior is enabled."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:315
+msgid "Focus open question at top"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:315
+msgid "Uncheck this to turn off the focus behavior."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:323
+msgid "Horizontal rule below answers"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:323
+msgid "Uncheck this to turn off the horizontal rule."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:331
+msgid "Enable ratings"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:331
+msgid "Check this to turn ratings on. Uncheck this to turn off the ratings."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:339
+msgid "Ratings require log in"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:339
+msgid ""
+"Restrict ratings to logged in users only (registered users can only rate "
+"once). Uncheck to allow anonymous visitors to rate questions (may not be as "
+"accurate)."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:347
+msgid "Visitor rating wait time"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:347
+msgid ""
+"The amount of time anonymous visitors must wait before being able to rate "
+"questions they have already rated. Leave blank to prevent more than one vote "
+"from the same IP address. Uncheck 'Ratings require log in' to enable this."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:355
+msgid "Rating icon colors"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:355
+msgid ""
+"Select icons for light, or dark templates (ratings must be enabled first)."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:363
+msgid "Disable built-in tag support"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:363
+msgid ""
+"Check this if you are already using a plugin that adds post tag taxonomy "
+"support for custom post types. Checking this without having any other custom "
+"post type taxonomy support enabled will break any tags that you have added "
+"to your FAQs. Broken tags will produce 'nothing found' or other errors when "
+"clicked on. It is safe to leave this unchecked if you are unsure whether, or "
+"not you need this and all of your tags are working fine. If checking this "
+"option breaks your FAQ tags you will need to uncheck it. This option will be "
+"disabled if you are using our Easy Taxonomy Support plugin."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:371
+msgid "Hide tags on FAQ pages"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:371
+msgid ""
+"Check this if you do not want to display the tags on your FAQs. This should "
+"be checked if you do not have any other taxonomy support and your tags are "
+"producing 'nothing found' errors."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:379
+msgid "Category heading"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:379
+msgid ""
+"What HTML heading would you like to use for the category names? Select H1, "
+"H2, H3, or H4. The default is H3."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:387
+msgid "FAQ margin indentation"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:387
+msgid ""
+"Indent the FAQs by selecting the margin size. This will set the margin for "
+"the question and answer. Select 'None' for no indented margin."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:395
+msgid "Answer margin indentation"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:395
+msgid ""
+"Indent the FAQ answers by selecting the margin size. This will only set the "
+"margin for the answer. Select 'None' for no indented margin."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:403
+msgid "Question title CSS"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:403
+msgid "Edit the default CSS to change the appearance of the question titles."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:403
+msgid "Allowed characters: a-z 0-9 . - : ; %"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:411
+msgid "Version"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:447
+msgid "ID"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:448
+msgid "Name"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:449
+msgid "Slug"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:450
+msgid "Term order"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:476
+msgid "Menu order"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:478
+msgid "Ratings"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:493
+msgid "Above categories"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:494
+msgid "Below categories"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:495
+msgid "Above and below categories"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:496
+msgid "Do not show"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:504
+msgid "On home page"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:505
+msgid "On category pages"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:506
+msgid "Both home and category pages"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:507
+msgid "Do not enable search"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:515
+msgid "Top"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:516
+msgid "Bottom"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:524
+msgid "Fade"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:525
+msgid "Reveal"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:526 admin/q-a-focus-plus-admin.php:632
+#: admin/q-a-focus-plus-admin.php:643
+msgid "None"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:578
+msgid "Minutes - Leave blank to allow only one vote per IP address."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:585
+msgid "Light"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:586
+msgid "Dark"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:589
+msgid "Icons for light backgrounds."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:590
+msgid "Icons for dark backgrounds."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:606
+msgid "The Easy Taxonomy Support plugin is active."
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:622
+msgid "H1"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:623
+msgid "H2"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:624
+msgid "H3"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:625
+msgid "H4"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:633 admin/q-a-focus-plus-admin.php:644
+msgid ".5"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:634 admin/q-a-focus-plus-admin.php:645
+msgid "1"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:635 admin/q-a-focus-plus-admin.php:646
+msgid "1.5"
+msgstr ""
+
+#: admin/q-a-focus-plus-admin.php:636 admin/q-a-focus-plus-admin.php:647
+msgid "2"
+msgstr ""
+
+#: inc/custom-post.php:8
+msgid "FAQ Categories"
+msgstr ""
+
+#: inc/custom-post.php:9
+msgid "FAQ Category"
+msgstr ""
+
+#: inc/custom-post.php:10
+msgid "Search FAQ Categories"
+msgstr ""
+
+#: inc/custom-post.php:11
+msgid "All FAQ Categories"
+msgstr ""
+
+#: inc/custom-post.php:12
+msgid "Parent FAQ Category"
+msgstr ""
+
+#: inc/custom-post.php:13
+msgid "Parent FAQ Category:"
+msgstr ""
+
+#: inc/custom-post.php:14
+msgid "Edit FAQ Category"
+msgstr ""
+
+#: inc/custom-post.php:15
+msgid "Update FAQ Category"
+msgstr ""
+
+#: inc/custom-post.php:16
+msgid "Add New FAQ Category"
+msgstr ""
+
+#: inc/custom-post.php:17
+msgid "New FAQ Category Name"
+msgstr ""
+
+#: inc/custom-post.php:24
+msgid "FAQ"
+msgstr ""
+
+#: inc/custom-post.php:25
+msgid "Edit FAQ"
+msgstr ""
+
+#: inc/custom-post.php:26
+msgid "Add FAQ"
+msgstr ""
+
+#: inc/custom-post.php:78
+msgid "Title"
+msgstr ""
+
+#: inc/custom-post.php:79
+msgid "Category"
+msgstr ""
+
+#: inc/custom-post.php:80
+msgid "Date"
+msgstr ""
+
+#: inc/functions.php:127
+msgid "Page was successfully created!"
+msgstr ""
+
+#: inc/functions.php:129
+msgid ""
+"Page could not be created. Please create it and add the shortcode manually."
+msgstr ""
+
+#: inc/functions.php:242
+msgid "Tags: "
+msgstr ""
+
+#: inc/functions.php:251
+msgid "Categories: "
+msgstr ""
+
+#: inc/functions.php:252
+msgid "Category: "
+msgstr ""
+
+#: inc/ratings.php:97 inc/ratings.php:103 inc/ratings.php:114
+msgid "person"
+msgstr ""
+
+#: inc/ratings.php:97 inc/ratings.php:103 inc/ratings.php:114
+msgid "people"
+msgstr ""
+
+#: inc/ratings.php:98
+msgid "You already found this helpful!"
+msgstr ""
+
+#: inc/ratings.php:100
+#, php-format
+msgid "You and %1$s other %2$s found this helpful."
+msgstr ""
+
+#: inc/ratings.php:105
+msgid "Please click here if this helped you."
+msgstr ""
+
+#: inc/ratings.php:107
+msgid "This is helpful!"
+msgstr ""
+
+#: inc/ratings.php:110 inc/ratings.php:121
+#, php-format
+msgid "%1$s %2$s found this helpful."
+msgstr ""
+
+#: inc/ratings.php:116 inc/ratings.php:118
+msgid "Please log in to rate this."
+msgstr ""
+
+#: inc/reorder.php:5 inc/reorder.php:23 inc/reorder.php:63 inc/reorder.php:118
+#: inc/reorder.php:269
+msgid "Reorder FAQs"
+msgstr ""
+
+#: inc/reorder.php:76
+#, php-format
+msgid "Show All %1$s"
+msgstr ""
+
+#: inc/reorder.php:109 inc/reorder.php:113
+msgid "Order Subpages"
+msgstr ""
+
+#: inc/reorder.php:125
+msgid "No Category Selected"
+msgstr ""
+
+#: inc/reorder.php:135
+msgid "Click to Reorder FAQs"
+msgstr ""
+
+#: inc/reorder.php:141
+msgid "This feature is part of the"
+msgstr ""
+
+#: inc/reorder.php:141
+msgid "My Page Order"
+msgstr ""
+
+#: inc/reorder.php:141
+msgid "plugin by Andrew Charlton."
+msgstr ""
+
+#: inc/reorder.php:197
+msgid "Updating FAQ Order..."
+msgstr ""
+
+#: inc/reorder.php:230
+msgid "FAQ order updated successfully."
+msgstr ""
+
+#: inc/reorder.php:233
+msgid "An error occured, order has not been saved."
+msgstr ""
+
+#: inc/reorder.php:260
+msgid "Return to parent page"
+msgstr ""
+
+#: inc/reorder.php:268
+msgid "Enhanced Pages widget provided by Reorder FAQs"
+msgstr ""
+
+#: inc/reorder.php:274
+msgid "Pages"
+msgstr ""
+
+#: inc/reorder.php:378 inc/widgets.php:60
+msgid "Title:"
+msgstr ""
+
+#: inc/reorder.php:381
+msgid "Sort by:"
+msgstr ""
+
+#: inc/reorder.php:383
+msgid "FAQ Order"
+msgstr ""
+
+#: inc/reorder.php:384
+msgid "Page Title"
+msgstr ""
+
+#: inc/reorder.php:385
+msgid "Post Date"
+msgstr ""
+
+#: inc/reorder.php:386
+msgid "Post Modified"
+msgstr ""
+
+#: inc/reorder.php:387
+msgid "Author"
+msgstr ""
+
+#: inc/reorder.php:388
+msgid "Page Slug"
+msgstr ""
+
+#: inc/reorder.php:389
+msgid "Page ID"
+msgstr ""
+
+#: inc/reorder.php:393
+msgid "Sort Order:"
+msgstr ""
+
+#: inc/reorder.php:395
+msgid "Ascending"
+msgstr ""
+
+#: inc/reorder.php:396
+msgid "Descending"
+msgstr ""
+
+#: inc/reorder.php:399
+msgid "Might only work with Page Title."
+msgstr ""
+
+#: inc/reorder.php:402
+msgid "Show Home:"
+msgstr ""
+
+#: inc/reorder.php:404
+msgid "Enter text for link to blog home, blank to hide."
+msgstr ""
+
+#: inc/reorder.php:407
+msgid "Exclude:"
+msgstr ""
+
+#: inc/reorder.php:409 inc/reorder.php:414 inc/reorder.php:419
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: inc/reorder.php:412
+msgid "Exclude Tree:"
+msgstr ""
+
+#: inc/reorder.php:417
+msgid "Include:"
+msgstr ""
+
+#: inc/reorder.php:422
+msgid "Depth:"
+msgstr ""
+
+#: inc/reorder.php:424
+msgid "0 = Hierarchy, -1 = Flat, 1 = Top Level, 2+ = Depth."
+msgstr ""
+
+#: inc/reorder.php:427
+msgid "Child Of:"
+msgstr ""
+
+#: inc/reorder.php:429
+msgid "ID of Parent Page."
+msgstr ""
+
+#: inc/reorder.php:432
+msgid "Show Date:"
+msgstr ""
+
+#: inc/reorder.php:434
+msgid "modified or custom to use Date Format."
+msgstr ""
+
+#: inc/reorder.php:437
+msgid "Date Format:"
+msgstr ""
+
+#: inc/reorder.php:439
+msgid "Custom date format to use with custom Show Date."
+msgstr ""
+
+#: inc/reorder.php:442
+msgid "Meta Key:"
+msgstr ""
+
+#: inc/reorder.php:444
+msgid "Use with Meta Value."
+msgstr ""
+
+#: inc/reorder.php:447
+msgid "Meta Value:"
+msgstr ""
+
+#: inc/reorder.php:449
+msgid "Use with Meta Key."
+msgstr ""
+
+#: inc/reorder.php:452
+msgid "Link Before:"
+msgstr ""
+
+#: inc/reorder.php:454
+msgid "Text or HTML to proceed link text."
+msgstr ""
+
+#: inc/reorder.php:457
+msgid "Link After:"
+msgstr ""
+
+#: inc/reorder.php:459
+msgid "Text or HTML after link text."
+msgstr ""
+
+#: inc/reorder.php:462
+msgid "Authors:"
+msgstr ""
+
+#: inc/reorder.php:464
+msgid "Author IDs, seperated by comma."
+msgstr ""
+
+#: inc/reorder.php:467
+msgid "Number:"
+msgstr ""
+
+#: inc/reorder.php:469
+msgid "Number of pages to display."
+msgstr ""
+
+#: inc/reorder.php:472
+msgid "Offset:"
+msgstr ""
+
+#: inc/reorder.php:474
+msgid "Number of pages to skip."
+msgstr ""
+
+#: inc/shortcodes.php:131 inc/shortcodes.php:246 inc/shortcodes.php:415
+#: inc/shortcodes.php:542
+msgid "Permalink"
+msgstr ""
+
+#: inc/shortcodes.php:228 inc/shortcodes.php:388 inc/shortcodes.php:390
+#: inc/shortcodes.php:515 inc/shortcodes.php:517
+msgid "1 Comment"
+msgstr ""
+
+#: inc/shortcodes.php:319 inc/shortcodes.php:323 inc/shortcodes.php:483
+#: inc/shortcodes.php:487
+msgid "FAQ last updated"
+msgstr ""
+
+#: inc/shortcodes.php:353
+msgid "View category"
+msgstr ""
+
+#: inc/shortcodes.php:583
+msgid "Search FAQs"
+msgstr ""
+
+#: inc/widgets.php:7
+msgid "Recent FAQs"
+msgstr ""
+
+#: inc/widgets.php:8
+msgid "Display the recents FAQs from Q and A Focus Plus."
+msgstr ""
+
+#: inc/widgets.php:64
+msgid "Number of FAQs to display:"
+msgstr ""
+
+#: inc/widgets.php:69
+msgid "Hide on category archive pages."
+msgstr ""

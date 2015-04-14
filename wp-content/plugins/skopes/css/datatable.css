@@ -1,0 +1,16 @@
+table thead tr{
+	background-color:#C3C4D8;
+}
+table thead tr th{
+	cursor:pointer;
+}
+.sorting {
+	background: url("../images/sort_both.png") no-repeat scroll right center transparent;
+}
+.sorting_asc {
+	background: url("../images/sort_asc.png") no-repeat scroll right center transparent;
+}
+.sorting_desc {
+	background: url("../images/sort_desc.png") no-repeat scroll right center transparent;
+}
+

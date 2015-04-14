@@ -1,0 +1,2 @@
+[30-Jan-2015 20:31:12 Australia/Canberra] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home/sandbox3/public_html/wp-content/plugins/skopes/frontend/wordtemplate/files/codefiles/project_pinch.php on line 3
+[30-Jan-2015 20:44:10 Australia/Canberra] PHP Fatal error:  Call to undefined function plugin_dir_url() in /home/sandbox3/public_html/wp-content/plugins/skopes/frontend/wordtemplate/files/codefiles/project_pinch.php on line 3

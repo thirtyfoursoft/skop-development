@@ -1,0 +1,7 @@
+[09-Mar-2015 10:43:19 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 04:42:55 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 04:42:56 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 12:13:27 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 13:18:31 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 13:24:53 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2
+[10-Mar-2015 13:29:24 UTC] PHP Fatal error:  Cannot redeclare class clsskopes in /home/sandbox6/public_html/wp-content/plugins/skopes/frontend/theme/White/core/class_skopes.php on line 2

@@ -1,1 +1,0 @@
-<?php header('Content-type: application/msword'); header('Content-Disposition: attachment; filename="test.docx"'); readfile('test.docx'); ?>
